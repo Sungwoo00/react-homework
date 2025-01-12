@@ -13,7 +13,7 @@ function Switch({ isOn = false, onChange }) {
     },
     h('img', {
       className: 'switch__knob',
-      src: '../assets/knob.svg',
+      src: './assets/knob.svg',
     })
   );
 }
