@@ -2,6 +2,11 @@
 
 > 해당 과제는 React API를 사용하여 구현하였습니다.
 
+## 구현 영상
+![Switch](https://github.com/user-attachments/assets/2bff99f0-4ca0-4b4f-aa97-7fa5e0c35378)
+![Chip](https://github.com/user-attachments/assets/4213346c-1f83-412a-a1bb-75412d9fe411)
+
+[배포 사이트 보러가기👀](https://sungwoo00.github.io/react-homework/public/index.html)
 ## 컴포넌트 구조 및 기능
 
 ### 1. Switch Component
