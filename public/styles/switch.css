@@ -1,0 +1,31 @@
+.switch {
+  display: flex;
+  width: 50px;
+  height: 30px;
+  padding: 2px;
+  border-radius: 100px;
+  background-color: #e8eef2;
+  gap: 4px;
+  flex-shrink: 0;
+  transition: background-color 200ms;
+  cursor: pointer;
+  border: none;
+}
+
+.switch--on {
+  background-color: #0000ff;
+}
+
+.switch__knob {
+  stroke-width: 0.5px;
+  stroke: rgba(0, 0, 0, 0.05);
+  width: 26px;
+  height: 26px;
+  flex-shrink: 0;
+  transform: translateX(0);
+  transition: transform 200ms;
+}
+
+.switch--on .switch__knob {
+  transform: translateX(20px);
+}

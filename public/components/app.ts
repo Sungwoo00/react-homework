@@ -1,7 +1,9 @@
 import React from '../lib/react.js';
-import Box from './box';
+import Switch from './HW1/Switch.ts';
 
 const { createElement: h } = React;
+
+let switchState = false;
 
 function App() {
   return h(
@@ -9,8 +11,14 @@ function App() {
     {
       className: 'app',
     },
-    // h(Calculators)
-    h(Box, null, '기본 박스')
+    h(Switch, {
+      isOn: switchState,
+      onChange: () => {
+        switchState = !switchState;
+        document.dispatchEvent(new Event('stateChange'));
+      },
+    })
   );
 }
+
 export default App;
